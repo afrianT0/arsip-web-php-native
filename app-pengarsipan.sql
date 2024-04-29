@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS `users` (
 -- Dumping data for table arsip_phpnative.users: ~3 rows (approximately)
 INSERT INTO `users` (`id`, `username`, `email`, `password`, `level`, `picture`, `created_at`, `updated_at`) VALUES
 	(1, 'admin', 'admin@email.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'Administrator', '6617d9327e9d3.png', '2024-02-15 06:38:58', '2024-04-11 12:36:02'),
-	(2, 'user', 'user@email.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'User', '6617d5644b873.png', '2024-04-06 06:11:35', '2024-04-11 12:19:48');
+	(2, 'user', 'user@email.com', '5f4dcc3b5aa765d61d8327deb882cf99', 'User', '6617d88d6ba49.png', '2024-04-06 06:11:35', '2024-04-11 12:19:48');
 
 -- Dumping structure for table arsip_phpnative.categories
 DROP TABLE IF EXISTS `categories`;
