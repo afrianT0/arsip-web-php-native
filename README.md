@@ -1,5 +1,8 @@
-Project pembuatan sistem pengarsipan berbasis web dengan php native.
+## Project pembuatan sistem pengarsipan berbasis web dengan php native.
 
-Thanks
-----
-Dotryn
+User Login <br>
+Username : admin <br>
+Password : password
+
+Thanks <br>
+<b>Afriyanto
