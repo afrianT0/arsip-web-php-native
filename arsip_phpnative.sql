@@ -37,7 +37,7 @@ CREATE TABLE `archives` (
   `tanggal` date NOT NULL,
   `deskripsi` text NOT NULL,
   `file` varchar(255) DEFAULT NULL,
-  `tipe_surat` enum('1','2') CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `tipe_surat` enum('1','2') NOT NULL,
   `created_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP,
   `updated_at` timestamp NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
