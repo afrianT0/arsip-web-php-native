@@ -144,6 +144,7 @@ $page = 'Surat Masuk';
                                                     <?php echo isset($_SESSION['gagal']) ? $_SESSION['gagal'] : ''; ?>
                                                 </div>
                                                 <?php unset($_SESSION['gagal']); ?>
+                                                <span>*Maks 2 MB</span>
                                             </div>
                                         </div>
 
