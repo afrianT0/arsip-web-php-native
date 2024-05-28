@@ -10,11 +10,12 @@ $data = $con->login($username);
 // $isi = $data->fetch_assoc();
 
 if ($data > 0 && $password == $data["password"]) {
-    $_SESSION["id"] = $data["id"];
-    $_SESSION["username"] = $data["username"];
-    $_SESSION["email"] = $data["email"];
-    $_SESSION["level"] = $data["level"];
-    $_SESSION["picture"] = $data["picture"];
+    $_SESSION["id"]         = $data["id"];
+    $_SESSION["username"]   = $data["username"];
+    $_SESSION["nama"]       = $data["nama"];
+    $_SESSION["email"]      = $data["email"];
+    $_SESSION["level"]      = $data["level"];
+    $_SESSION["picture"]    = $data["picture"];
 
     if (isset($_POST['remember'])) {
         $time = time();
