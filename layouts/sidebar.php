@@ -68,9 +68,9 @@
                         <span class="menu-icon"><i class="mdi mdi-email-alert-outline"></i></span>
                         <span class="menu-text"> Pending </span>';
 
-                $data = $con->total_surat_pending();
-                if ($data != null) {
-                    echo '<span class="badge bg-secondary rounded ms-auto">' . $data . '</span>';
+                $data_pending = $con->total_surat_pending();
+                if ($data_pending != null) {
+                    echo '<span class="badge bg-secondary rounded ms-auto">' . $data_pending . '</span>';
                 }
 
                 echo '</a>
